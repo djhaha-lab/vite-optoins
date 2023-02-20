@@ -1,11 +1,11 @@
-import { createStore } from "vuex";
-import mutations from "./mutations";
+import { createStore } from 'vuex'
+import mutations from './mutations'
 export const store = createStore({
   state() {
     return {
-      num: 0,
-    };
+      num: 0
+    }
   },
-  mutations,
-});
-export default store;
+  mutations
+})
+export default store

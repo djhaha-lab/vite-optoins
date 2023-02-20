@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'vue-eslint-parser', // 得配vue的
+  // 得配vue的
   env: {
     browser: true,
     es2021: true
